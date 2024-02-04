@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    width: auto;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    width: 98%;
+}
+header{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    height:3rem;
+    width: 100%;
+    background: rgba(55, 159, 135, 0.893);
+    color:black;
+}
+.logo{
+    width:10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+.menu{
+    height: 30px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 40%;
+    margin-right: 1%;
+}
+.mbox{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+section{
+    display: flex;
+    align-items: center;
+
+}
+.main_content{
+    background-color:white;
+    display: flex;
+    height: 85vh;
+    margin-left: 1%;
+}
+.content1{
+    width: 40%;
+    display: flex;
+    margin-top: 1%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-color: rgb(19, 85, 87);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 7.5%;
+    margin-top: 10%;
+    color: black;
+    margin-left: 5%;
+    background-color: white;
+}
+.content{
+    height: 100%;
+    width: 100%;
+
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    height: 60%;
+    width: 100%;
+    background-color: rgb(93, 88, 160);
+}
+.content3{
+    margin-top: 1%;
+    margin-bottom: 8%;
+    height: 34%; 
+    width: 100%;
+    margin-left: 1.5%;
+    background-color: rgb(93, 88, 160);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height:40%;
+    width: 90%;
+    margin-bottom: 8%;
+    margin-top: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;   
+}
+footer{
+    height:3rem;
+    width: 100%;
+    background-color: rgba(55, 159, 135, 0.893);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5%;
+    margin-left: 15px;
+}
